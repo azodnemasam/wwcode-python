@@ -4,39 +4,40 @@ my_list = ['w', 'o', 'm', 'e', 'n', 'w', 'h', 'o', 'c', 'o', 'd', 'e']
 aTuple = (123, 'C++', 'Java', 'Python')
 
 
-max(my_list)
+print(max(my_list))
 
-## Output: 
+## Output: w
 
-min(my_list)
+print(min(my_list))
 
-## Output: 
+## Output: c
 
-list(aTuple)
+print(list(aTuple))
 
-## Output: 
+## Output: [123, 'C++', 'Java', 'Python']
 
-my_list.count('o')
+print(my_list.count('o'))
 
-## Output: 
+## Output: 3
 
-my_list.index('o')
+print(my_list.index('o'))
 
-## Output: 
+## Output: 1
 
-my_list.sort()
-
-## my_list
-## Output: 
-
-my_list.reverse()
+print(my_list.sort())
 
 ## my_list
-## Output: 
+## Output: None
 
-copied_list = my_list.copy()
+print(my_list.reverse())
+
+## my_list
+## Output: None
+
+#print(copied_list = my_list.copy())
 
 ## copied_list
 ## Output: 
+
 
 
