@@ -28,3 +28,10 @@ rewards = [
     "One sheet of Biogesic",  # index 7
     "100mL Pepper/Pintura",  # index 8
 ]
+cust = list(input('Please enter text:').split(' '))
+creward = cust[0]
+cgender = cust[-1]
+cname = ' '.join(cust[1:len(cust)-1])
+print("Hi {}! You have succesfully redeemed reward #{} - {}! Thank you for choosing Aling Nena's Sari Sari store.".format(cname.capitalize(),creward,rewards[int(creward)]))
+
+
