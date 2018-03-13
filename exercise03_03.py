@@ -5,3 +5,16 @@ Sample Input: 1,2,35,45,7,8,912,23,1
 Sample Output: [1, 1, 7, 23, 35, 45] # odd
                [912, 8, 2] # even
 '''
+
+odd_list =[]
+even_list=[]
+num_list = map(int,input('Please enter numbers:').split(','))
+num_list = [int(x) for x in num_list]
+for x in num_list:
+    if x%2==0:
+        even_list.append(x)
+    else:
+        odd_list.append(x)
+print(num_list)
+print(even_list)
+print(odd_list)
